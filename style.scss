@@ -397,7 +397,7 @@ body{
 
         .box-1, .box-2, .box-3{
             width: 95%;
-            height: 31.7%;
+            height: 100vh;
             background-color: hsl(0, 0%, 74%);
             margin: 0 auto;
             display: flex;
@@ -410,7 +410,7 @@ body{
             
             .circle{
                 position: relative;
-                height: 78%;
+                height: 15vw;
                 width: 15vw;
                 background-color: black;
                 left: 5%;
@@ -564,7 +564,7 @@ select:after{
 
                 .circle{
                     width: 170px;
-                    width: 170px;
+                    height: 170px;
                 }
             }
         }
