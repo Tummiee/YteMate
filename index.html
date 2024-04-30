@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All in one SM Video Downloader</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dbaa903658.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header begins-->
+    <header>
+        <div class="first">
+            <div class="logo">
+                <a href="index.html"><span id="all">Y</span><span id="in">t</span><span id="one">E</span><span id="video">Mate</span></a>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page 2.html">Info</a></li>
+                    <li><a href="page 3.html">FAQ</a></li>
+                    <li><a href="page 4.html">About us</a></li>
+                </ul>
+                <button class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar bar-2"></div>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <ul class="mobile-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="page 2.html">Info</a></li>
+        <li><a href="page 3.html">FAQ</a></li>
+        <li><a href="page 4.html">About us</a></li>
+    </ul>
+    <!-- Header ends -->
+
+    <!-- Sections Begins-->
+    <section class="sec-1">
+        <div class="purpose">
+            <h1>Download Youtube </h1>
+            <h1>Video by Link!</h1>
+        </div>
+        <div class="heads-up">
+            <span id="ud">
+                <i class="fa-solid fa-heart-circle-check"></i>
+                Unlimited Downloads
+            </span>
+            <span id="nw">
+                <i class="fa-solid fa-heart-circle-check"></i>
+                No Watermarks
+            </span>
+        </div>
+    </section>
+
+    <section class="sec-2">
+      <div class="search-wrap">
+        <div class="search-box">
+            <select class="format" required="">   <option disabled="" selected="">Select Video Format</option>          
+                <option value="mp3">Mp3</option>
+                <option value="m4a">144p</option>   
+                <option value="360">360p</option>
+                <option value="480">480p</option>
+                <option value="720">720p</option>
+                <option value="1080">1080p</option>
+                <option value="4k">4k</option>
+                <option value="8k">8k</option>
+                </select>
+            <input type="text" class="link" id="inputField" placeholder="&#128280;   Paste link here">
+            <button type="submit" class="btn" id="hideButton" onclick="download()">
+                <span>Start</span><i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <button id="pasteButton">Paste</button>
+            <div id="loader" class="hidden"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec-3">
+        <div class="contentbox">
+          <!-- <div class="label"><p>Download Menu
+                <h2>&darr;</h2></p>
+            </div> -->
+    
+            <div class="content">
+                <div class="result1"></div>
+                <div class="result2"></div>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
