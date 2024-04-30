@@ -383,7 +383,7 @@ body {
 .container .holder-box .box-1 .circle i, .container .holder-box .box-2 .circle i, .container .holder-box .box-3 .circle i {
   color: white;
   position: absolute;
-  font-size: 2.5vw;
+  font-size: 3vw;
 }
 .container .holder-box .box-1 pre, .container .holder-box .box-2 pre, .container .holder-box .box-3 pre {
   white-space: pre-wrap;
