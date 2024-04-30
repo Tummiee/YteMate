@@ -534,6 +534,7 @@ select:after {
     display: block;
   }
   .sec-2 .search-wrap .search-box #pasteButton {
+    display: none;
     font-size: initial;
   }
   .container .holder-box .box-1 .circle, .container .holder-box .box-2 .circle, .container .holder-box .box-3 .circle {
