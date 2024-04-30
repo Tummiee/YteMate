@@ -493,6 +493,7 @@ select:after {
   }
   .container .holder-box .box-1 .circle, .container .holder-box .box-2 .circle, .container .holder-box .box-3 .circle {
     width: 170px;
+    width: 170px;
   }
 }
 @media (max-width: 768px) {
@@ -539,6 +540,7 @@ select:after {
   }
   .container .holder-box .box-1 .circle, .container .holder-box .box-2 .circle, .container .holder-box .box-3 .circle {
     width: 130px;
+    height: 130px;
   }
   .container .holder-box .box-1 pre, .container .holder-box .box-2 pre, .container .holder-box .box-3 pre {
     padding: 0 0;
@@ -616,5 +618,6 @@ select:after {
   }
   .container .holder-box .box-1 .circle, .container .holder-box .box-2 .circle, .container .holder-box .box-3 .circle {
     width: 120px;
+    height: 120px;
   }
 }/*# sourceMappingURL=style.css.map */
